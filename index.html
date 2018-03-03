@@ -1,15 +1,22 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
-準備中
-<a href="knzkapp://user/open?@y@knzk.me">KnzkAppで開く</a>
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    </body>
-  </html>
-        
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>OpenKnzkApp</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<main>
+    <p class="white-text"><b id="userid"></b> を次で開く:</p>
+    <p><a class="blue darken-1 btn" id="open_in_browser">ブラウザ</a></p>
+    <p><a class="blue-grey darken-1 btn" id="open_in_knzkapp">KnzkApp</a></p>
+    <p style="margin-top: 20px" class="blue-grey-text lighten-1">Powered by <a href="https://github.com/KnzkDev" target="_blank">KnzkDev</a></p>
+</main>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
